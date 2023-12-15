@@ -1,8 +1,8 @@
 {
-  "name": "parcel-template",
+  "name": "hector",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Mar-Volo.github.io/parcel-template",
+  "homepage": "https://Mar-Volo.github.io/hector",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-template/"
