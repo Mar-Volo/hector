@@ -1,14 +1,14 @@
 .hero__section {
   padding-top: 240px;
-  background-image: url(../images/bg-images/gexa-bg/gexa@1x.png),
-    url(../images/bg-images/man-bg/man-preview@1x.png);
+  background-image: url(../images/bg-images/gexa-bg/gexa@1x.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: left 1270px bottom 60px, left 1270px bottom 70px;
-  background-size: 748px 864px, 737px 1044px;
+  background-position: left 820px bottom 70px;
+  background-size: 748px 864px;
+  overflow: visible;
+  padding-bottom: 296px;
 }
 .hero__container {
   position: relative;
-  padding-bottom: 296px;
 }
 .hero__title {
   font-size: 96px;
@@ -41,6 +41,11 @@
   align-items: center;
   justify-content: center;
   border: 1px solid #0f0f0f;
+}
+.hero__img {
+position: absolute;
+right: 240px;
+top: -350;
 }
 .counter {
   position: absolute;

@@ -4,7 +4,7 @@
 }
 .benefits__list {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
 }
 .benefits__item {
   width: 534px;
@@ -15,16 +15,19 @@
     background-image: url(../images/bg-images/benefits-bg/1ben@1x.png);
     background-repeat: no-repeat;
     background-size: 250px 240px;
+    background-position: bottom left -10px;
   }
   &:nth-child(2) {
     background-image: url(../images/bg-images/benefits-bg/2ben@1x.png);
     background-repeat: no-repeat;
     background-size: 250px 240px;
+    background-position: bottom left -10px;
   }
   &:nth-child(3) {
     background-image: url(../images/bg-images/benefits-bg/3ben@1x.png);
     background-repeat: no-repeat;
     background-size: 250px 240px;
+    background-position: bottom left -10px;
   }
   background-color: #fff;
 }
